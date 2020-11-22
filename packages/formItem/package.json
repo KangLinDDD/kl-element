@@ -1,6 +1,6 @@
 {
-  "name": "lg-formItem",
-  "version": "0.0.1",
+  "name": "kl-formitem",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,6 @@
   "license": "MIT",
   "dependencies": {
     "async-validator": "^3.5.1"
-  }
+  },
+  "gitHead": "f58a68974993e47733dcd220f12d7fbe5b0e458f"
 }

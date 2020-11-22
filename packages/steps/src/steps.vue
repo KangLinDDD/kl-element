@@ -1,10 +1,10 @@
 <template>
-    <div class="lg-steps">
-        <div class="lg-steps-line"></div>
+    <div class="kl-steps">
+        <div class="kl-steps-line"></div>
         <div v-for="index in count"
              :key="index"
              :style="{color: active >= index ? activeColor : defaultColor}"
-             class="lg-step">
+             class="kl-step">
             {{index}}
         </div>
     </div>

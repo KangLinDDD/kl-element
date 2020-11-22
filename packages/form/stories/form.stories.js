@@ -17,18 +17,18 @@ export const Login = () => ({
         LgButton
     },
     template: `<template>
-        <lg-form class="form" ref="form" :model="user" :rules="rules">
-          <lg-form-item label="用户名" prop="username">
-            <!-- <lg-input v-model="user.username"></lg-input> -->
-            <lg-input :value="user.username" @input="user.username=$event" placeholder="请输入用户名"></lg-input>
-          </lg-form-item>
-          <lg-form-item label="密码" prop="password">
-            <lg-input type="password" v-model="user.password"></lg-input>
-          </lg-form-item>
-          <lg-form-item>
-            <lg-button type="primary" @click="login">登 录</lg-button>
-          </lg-form-item>
-        </lg-form>
+        <kl-form class="form" ref="form" :model="user" :rules="rules">
+          <kl-form-item label="用户名" prop="username">
+            <!-- <kl-input v-model="user.username"></kl-input> -->
+            <kl-input :value="user.username" @input="user.username=$event" placeholder="请输入用户名"></kl-input>
+          </kl-form-item>
+          <kl-form-item label="密码" prop="password">
+            <kl-input type="password" v-model="user.password"></kl-input>
+          </kl-form-item>
+          <kl-form-item>
+            <kl-button type="primary" @click="login">登 录</kl-button>
+          </kl-form-item>
+        </kl-form>
     </template>`,
     data () {
         return {

@@ -1,10 +1,10 @@
-.lg-steps {
+.kl-steps {
   position: relative;
   display: flex;
   justify-content: space-between;
 }
 
-.lg-steps-line {
+.kl-steps-line {
   position: absolute;
   height: 2px;
   top: 50%;
@@ -15,7 +15,7 @@
   background: rgb(223, 231, 239);
 }
 
-.lg-step {
+.kl-step {
   border: 2px solid;
   border-radius: 50%;
   height: 32px;

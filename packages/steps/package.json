@@ -1,6 +1,6 @@
 {
-  "name": "lg-steps",
-  "version": "0.0.1",
+  "name": "kl-steps",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "f58a68974993e47733dcd220f12d7fbe5b0e458f"
 }
