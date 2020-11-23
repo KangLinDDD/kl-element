@@ -13,7 +13,7 @@
 <script>
 import './steps.css'
 export default {
-    name: 'LgSteps',
+    name: 'klSteps',
     props: {
         count: {
             type: Number,

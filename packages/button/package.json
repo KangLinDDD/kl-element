@@ -1,16 +1,19 @@
 {
-  "name": "kl-button",
-  "version": "0.0.4",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "lodash": "4"
-  },
-  "gitHead": "f58a68974993e47733dcd220f12d7fbe5b0e458f"
+    "name": "kl-button",
+    "version": "0.0.4",
+    "description": "",
+    "main": "dist/cjs/index.js",
+    "module": "dist/es/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "rollup -c",
+        "del": "rimraf dist"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "lodash": "4"
+    },
+    "gitHead": "f58a68974993e47733dcd220f12d7fbe5b0e458f"
 }

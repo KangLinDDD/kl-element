@@ -11,7 +11,7 @@
 <script>
 import AsyncValiadte from 'async-validator'
 export default {
-    name: 'LgFormItem',
+    name: 'KlFormItem',
     inject: ['form'],
     props: {
         label: {

@@ -1,20 +1,20 @@
-import LgForm from '../'
-import LgFormItem from '../../formItem'
-import LgInput from '../../input'
-import LgButton from '../../button'
+import KlForm from '../'
+import KlFormItem from '../../formItem'
+import KlInput from '../../input'
+import KlButton from '../../button'
 
 export default {
-    title: 'LgForm',
+    title: 'KlForm',
     component: {
-        LgForm
+        KlForm
     }
 }
 export const Login = () => ({
     components: {
-        LgForm,
-        LgFormItem,
-        LgInput,
-        LgButton
+        KlForm,
+        KlFormItem,
+        KlInput,
+        KlButton
     },
     template: `<template>
         <kl-form class="form" ref="form" :model="user" :rules="rules">
